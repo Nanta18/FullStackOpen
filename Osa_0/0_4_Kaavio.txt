@@ -1,0 +1,6 @@
+POST new_note // Browser sends the new note to the server
+GET notes // Servers resends the browser the html file for the site
+GET main.css // main.css is executed again
+GET main.js // main.js is executed again
+GET data.json // data.json is executed again and it updates the notes with the new data
+GET favicon.ico // favicon.ico is atempted to be fetched from the server but is not found

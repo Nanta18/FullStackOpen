@@ -1,0 +1,6 @@
+GET spa // Browser executes the html file
+GET main.css // Browser gets the style sheet file from the server and executes it
+GET spa.json // Browser gets the javascript file from the server and executes it
+GET data.json // Browser fills the notes with data it got from the server
+GET favicon // Browser attempts to get favicon from the server but it's not found
+POST new_not_spa // Browser sends the data to server and updates the list of notes with javascript instead of reloading the whole site

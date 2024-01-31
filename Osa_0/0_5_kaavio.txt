@@ -1,0 +1,9 @@
+GET spa // Browser executes the html file
+GET main.css // Browser gets the style sheet file from the server and executes it
+GET spa.json // Browser gets the javascript file from the server and executes it
+GET data.json // Browser fills the notes with data it got from the server
+GET favicon // Browser attempts to get favicon from the server but it's not found
+
+
+
+
